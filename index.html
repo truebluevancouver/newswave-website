@@ -3,71 +3,191 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="NewsWave — independent media covering stories, events, and issues from Canada and beyond.">
+  <meta name="description" content="NewsWave — independent reporting, interviews, event coverage and on-the-ground journalism from Canada and beyond.">
   <title>NewsWave | Independent Media</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a href="#home" class="brand">NewsWave</a>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#stories">News</a>
-        <a href="#join">Join</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span>INDEPENDENT • ON THE GROUND • CANADA</span>
+      <a href="mailto:NewsWave.Daniel@gmail.com">NewsWave.Daniel@gmail.com</a>
     </div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap masthead">
+      <a href="#home" class="brand">NEWS<span>WAVE</span></a>
+      <div class="tagline">Independent Media</div>
+      <a class="tip-button" href="#submit">SUBMIT A STORY</a>
+    </div>
+    <nav class="main-nav">
+      <div class="wrap nav-inner">
+        <a href="#home">Home</a>
+        <a href="#latest">Latest News</a>
+        <a href="#ground">On the Ground</a>
+        <a href="#about">About Me</a>
+        <a href="#why">Why I Started NewsWave</a>
+        <a href="#submit">Submit a Story</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
   </header>
 
   <main id="home">
-    <section class="hero">
-      <div class="wrap hero-inner">
-        <div class="hero-copy">
-          <p class="eyebrow">INDEPENDENT MEDIA</p>
-          <h1>NewsWave</h1>
-          <h2>Independent Media</h2>
-          <p>Welcome to NewsWave.</p>
-          <p>My name is Daniel Thiele, and I created NewsWave as an independent journalism project dedicated to reporting on the stories, events, and issues that shape our communities.</p>
-          <p>Through interviews, event coverage, photography, and on-the-ground reporting, I aim to provide accurate, accessible, and engaging journalism from across Canada and beyond.</p>
-          <p>Whether I am covering a public rally, interviewing a community member, or reporting on an important issue, my goal is to help readers better understand the people and events shaping the world around them.</p>
-          <p>Thank you for visiting NewsWave.</p>
-          <a class="button" href="#stories">See All Stories</a>
+    <section class="breaking-strip">
+      <div class="wrap breaking-inner">
+        <span class="breaking-label">NEWSWAVE</span>
+        <span>Independent reporting, interviews and field coverage from British Columbia, Canada and beyond.</span>
+      </div>
+    </section>
+
+    <section class="hero wrap">
+      <div class="hero-main">
+        <p class="eyebrow light">INDEPENDENT JOURNALISM</p>
+        <h1>Reporting from the ground up.</h1>
+        <p class="hero-lead">NewsWave covers the people, events and issues shaping our communities through interviews, photography, public-event coverage and direct reporting from the scene.</p>
+        <div class="hero-actions">
+          <a class="button" href="#latest">LATEST NEWS</a>
+          <a class="button ghost" href="#about">ABOUT NEWSWAVE</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <p class="eyebrow">WHAT NEWSWAVE COVERS</p>
+        <div class="side-item"><strong>01</strong><span>Local & Canadian News</span></div>
+        <div class="side-item"><strong>02</strong><span>Politics & Public Affairs</span></div>
+        <div class="side-item"><strong>03</strong><span>Rallies & Community Events</span></div>
+        <div class="side-item"><strong>04</strong><span>Interviews & Field Reports</span></div>
+      </aside>
+    </section>
+
+    <section id="latest" class="section wrap">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">NEWSROOM</p>
+          <h2>Latest News</h2>
+        </div>
+        <p class="section-note">Newest reports, interviews and updates from NewsWave.</p>
+      </div>
+
+      <div class="news-grid">
+        <article class="news-card feature-card">
+          <div class="story-image image-one"><span class="story-badge">LATEST</span></div>
+          <div class="story-content">
+            <p class="eyebrow">NEWSWAVE REPORT</p>
+            <h3>Your newest major story will appear here.</h3>
+            <p>This featured space is ready for your latest article, video report, interview or breaking local story.</p>
+            <span class="meta">NewsWave • British Columbia</span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="story-image image-two"></div>
+          <div class="story-content">
+            <p class="eyebrow">ON THE GROUND</p>
+            <h3>Field reports and event coverage.</h3>
+            <p>Use this card for rallies, public meetings, demonstrations, community events or breaking coverage.</p>
+            <span class="meta">Field Report</span>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="story-image image-three"></div>
+          <div class="story-content">
+            <p class="eyebrow">INTERVIEW</p>
+            <h3>Direct conversations with the people involved.</h3>
+            <p>Feature interviews with residents, organizers, candidates, public figures and community voices.</p>
+            <span class="meta">NewsWave Interview</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="ground" class="dark-section">
+      <div class="wrap ground-grid">
+        <div>
+          <p class="eyebrow light">ON THE GROUND</p>
+          <h2>Go where the story is.</h2>
+          <p>NewsWave is built around first-hand reporting. That means attending events, talking directly to people, asking questions, recording what happened and showing readers the scene for themselves.</p>
+          <a class="text-link light-link" href="#submit">Have something NewsWave should cover? →</a>
+        </div>
+        <div class="ground-list">
+          <div><span>01</span><strong>Public meetings</strong></div>
+          <div><span>02</span><strong>Community events</strong></div>
+          <div><span>03</span><strong>Street interviews</strong></div>
+          <div><span>04</span><strong>Political events</strong></div>
+          <div><span>05</span><strong>Breaking local stories</strong></div>
         </div>
       </div>
     </section>
 
-    <section id="stories" class="stories wrap">
-      <div class="section-heading">
-        <p class="eyebrow">NEWS</p>
-        <h2>On the Ground</h2>
-        <p class="muted">Stories, interviews, event coverage and independent reporting from NewsWave.</p>
+    <section id="about" class="section wrap about-grid">
+      <div>
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Hi, I’m Daniel.</h2>
       </div>
-      <div class="placeholder-card">
-        <span>Latest reporting will appear here.</span>
+      <div class="prose">
+        <p>I created NewsWave as an independent journalism project focused on the stories, events and issues shaping our communities.</p>
+        <p>I cover public events, interview people directly, take photographs and video, and report from the ground whenever possible. My goal is to make reporting understandable, accessible and connected to what people are actually seeing and experiencing.</p>
+        <p>NewsWave is independent and is not part of a major media corporation.</p>
       </div>
     </section>
 
-    <section id="join" class="join-strip">
+    <section id="why" class="why-section">
+      <div class="wrap why-grid">
+        <div class="why-number">WHY</div>
+        <div>
+          <p class="eyebrow">WHY I STARTED NEWSWAVE</p>
+          <h2>I wanted to report stories myself — not just watch them from a distance.</h2>
+          <p>I started NewsWave because I wanted a place where I could go directly to events, speak with people, ask my own questions and publish what I learned. The goal is simple: show up, listen, verify what can be verified, and give people a clearer view of what is happening.</p>
+          <p>As NewsWave grows, I want it to become a home for original reporting, interviews and community stories that might otherwise receive little attention.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="submit" class="section wrap">
+      <div class="submit-box">
+        <div>
+          <p class="eyebrow light">SUBMIT A STORY</p>
+          <h2>Know about something NewsWave should cover?</h2>
+          <p>Send a news tip, event, story idea, photo or document. Include what happened, where it happened, when it happened and how NewsWave can follow up.</p>
+        </div>
+        <a class="button white" href="mailto:NewsWave.Daniel@gmail.com?subject=NewsWave%20Story%20Tip">SEND A STORY TIP</a>
+      </div>
+    </section>
+
+    <section class="join-strip">
       <div class="wrap join-inner">
         <div>
           <p class="eyebrow light">JOIN NEWSWAVE</p>
-          <h2>Want to help build independent media?</h2>
-          <p>NewsWave is looking for volunteer <strong>editors, writers, and journalists/reporters</strong>. These are currently unpaid positions. No professional newsroom experience is required — just curiosity, reliability, and a willingness to learn.</p>
+          <h2>Interested in journalism?</h2>
+          <p>NewsWave is looking for unpaid volunteer editors, writers and journalists/reporters who want to help build an independent news project and gain hands-on experience.</p>
         </div>
-        <a class="button white" href="mailto:NewsWave.Daniel@gmail.com?subject=NewsWave%20Volunteer%20Application">Apply to Join</a>
+        <a class="button white" href="mailto:NewsWave.Daniel@gmail.com?subject=NewsWave%20Volunteer%20Application">APPLY TO JOIN</a>
       </div>
     </section>
   </main>
 
   <footer id="contact">
-    <div class="wrap footer-inner">
+    <div class="wrap footer-grid">
       <div>
-        <strong>NewsWave</strong>
-        <p>© 2026 NewsWave. All rights reserved.<br>Independent, citizen-funded journalism.</p>
+        <div class="brand footer-brand">NEWS<span>WAVE</span></div>
+        <p>Independent reporting from British Columbia, Canada and beyond.</p>
       </div>
-      <a href="mailto:NewsWave.Daniel@gmail.com">📧 NewsWave.Daniel@gmail.com</a>
+      <div>
+        <h4>Explore</h4>
+        <a href="#latest">Latest News</a>
+        <a href="#ground">On the Ground</a>
+        <a href="#about">About Me</a>
+        <a href="#why">Why I Started NewsWave</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:NewsWave.Daniel@gmail.com">NewsWave.Daniel@gmail.com</a>
+        <a href="#submit">Submit a Story</a>
+      </div>
     </div>
+    <div class="wrap footer-bottom">© 2026 NewsWave. All rights reserved.</div>
   </footer>
 </body>
 </html>
